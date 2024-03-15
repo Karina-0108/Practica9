@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    position:relative;
+    background-color: beige;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    color:#181818;
+}
+header
+{
+    background: url(https://www.shutterstock.com/image-illustration/3d-buble-blue-background-abstract-260nw-2420625485.jpg);
+}
+/*Menu de navegacion*/
+nav
+{
+    display: inline-block;
+    width: 100%;
+    height:60px;
+    text-align: right;
+    background-color: rgb(22, 228, 149);
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav li
+{
+    display: inline;
+    margin-right: 15px;
+}
+article{
+    background-color: rgb(22, 228, 149);
+
+}
+nav{
+    background-color: rgb(22, 228, 149);
+}
+footer{
+    float:left;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+    border-top: 2px solid #000;
+    background-color: #d60aa3;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+#logo, header h1
+{
+    display: inline-block;
+    margin-bottom: 0px;
+    height: 140px;
+    color: black
+}
+tbody{
+    margin-bottom: 0px;
+    height: 140px;
+    color: black
+}
+td{
+    margin-bottom: 0px;
+    color: black
+}
